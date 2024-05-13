@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+  background-color: #0d0d0d; /* Warna latar belakang gelap */
+  color: #fff; /* Warna teks putih untuk kontras */
+}
+
+/* Media queries untuk responsivitas */
+@media (max-width: 768px) {
+  /* Untuk tablet */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Untuk mobile phones */
+  body {
+    font-size: 12px;
+  }
+}
+
+/* Styling tambahan untuk elemen lain jika diperlukan */
+
+
+  .hero-section {
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.ibb.co/KVVcdqw/images.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  .hero-section p {
+    font-size: 1.5em;
+  }
+  .hero-section button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #0d0d0d;
+    background-color: #e6e6e6;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .hero-section button:hover {
+    color: white;
+    background-color: #ff0000; /* Warna merah untuk efek hover */
+  }
+  
+  /* trailer video css */
+  
+/* Tambahkan ini ke file CSS Anda */
+.trailer-section {
+  padding: 40px 20px;
+  background-color: #1c1c1c; /* Warna latar belakang untuk section trailer */
+  text-align: center;
+}
+
+.trailer-section h2 {
+  color: #fff; /* Warna teks putih */
+  margin-bottom: 20px;
+}
+
+/* Responsivitas Video */
+@media (max-width: 768px) {
+  .trailer-section iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* bagian button */
+/* Tambahkan ini ke file CSS Anda */
+.button-section {
+  background: transparent;
+  text-align: center;
+  padding: 20px;
+}
+
+.watch-button, .buy-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #ff0000; /* Warna merah untuk tombol */
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.watch-button:hover, .buy-button:hover {
+  background-color: #cc0000; /* Warna merah gelap saat hover */
+}
+
+
+/* Tambahkan ini ke file CSS Anda */
+.gallery-section {
+  padding: 40px 20px;
+  background-color: #222; /* Warna latar belakang untuk galeri */
+  text-align: center;
+}
+
+.gallery-section h2 {
+  color: #fff; /* Warna teks putih */
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+  gap: 15px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #fff; /* Bingkai putih untuk setiap gambar */
+}
+
+/* Responsivitas Galeri */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom untuk tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr; /* 1 kolom untuk ponsel */
+  }
+}
+
+
+/* Navbar style */
+/* CSS untuk Navbar */
+.navbar {
+  background-color: #343a40;/* Warna latar belakang navbar */
+  color: white;
+}
+
+.navbar-brand {
+  color: #ff0000 !important; /* Warna logo horor merah */
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.nav-link {
+  color: #ffffff !important; /* Warna teks untuk link navbar */
+}
+.nav-link:hover {
+  color: #ff0000 !important; /* Warna teks saat hover */
+}
+
+/* footer */
+/* CSS untuk Footer */
+button a{
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
