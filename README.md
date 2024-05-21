@@ -15,6 +15,9 @@ Jika Anda memiliki pertanyaan atau ingin berkolaborasi, jangan ragu untuk menghu
 - LinkedIn: idincode
 - instagram : Idin_xml
 
+# Live view
+https://idincodingweb.github.io/bioskop45/
+
 ## 🌟 Ikuti Saya
 Untuk pembaruan lebih lanjut dan untuk melihat apa yang saya kerjakan:
 - Twitter: @idincode
